@@ -1,10 +1,10 @@
 import express from "express";
-import connectDB from "./database/database.js";
-import User from "./model/user.js";
+import connectDB from "./src/database/database.js";
+import User from "./src/model/user.js";
 import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
 import cookieParser from "cookie-parser";
-import auth from "./middleware/auth.js";
+import auth from "./src/middleware/auth.js";
 
 connectDB();
 
