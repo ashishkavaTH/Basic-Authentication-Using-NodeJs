@@ -1,0 +1,9 @@
+# dotenv environment variables file
+.env
+.env.example
+
+# Node Modules
+node_modules
+
+# Package lock file
+package-lock.json
